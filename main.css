@@ -103,3 +103,19 @@ section h2{
 #economy .articles article a{
     background-color: orange;
 }
+
+#tech{
+    background-color: rgba(0, 200, 255, 0.25 );
+}
+
+#tech .articles article a{
+    background-color: blue;
+}
+
+#games{
+    background-color: rgba(255, 0, 0, 0.25);
+}
+
+#games .articles article a{
+    background-color: red;
+}

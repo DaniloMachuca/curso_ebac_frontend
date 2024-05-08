@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulário</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <div class="containers">
+            <h1>Formulário</h1>
+            <p>O formulário será validado caso o número B seja maior que o número A</p>
+        </div>
+    </header>
+        <div class="containers">
+            <form id="formulario">
+                <Label for="campoA">Campo A</Label>
+                <br>
+                <input id="campoA" type="number" required placeholder="número A">
+                <br>
+                <Label for="campoB">Campo B</Label>
+                <br>
+                <input id="campoB" type="number" required placeholder="número B">
+                <br>
+                <button type="submit">Enviar</button>
+            </form>
+            <p class="message">aguardando seus valores</p>
+            <p class="success-message"></p>
+        </div>
+    <script src="./main.js"></script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    padding:16px;
+    margin-bottom: 16px;
+}
+
+.containers{
+    display: block;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+}
+
+form input{
+    margin: 4px;
+    padding: 8px;
+    width: 500px;
+}
+
+form button{
+    padding: 8px;
+    margin: 8px;
+    width: 300px;
+}
+
+.success-message{
+    margin-top: 16px;
+    padding: 16px;
+    font-size: 24px;
+    color: white;
+    background-color: green;
+    margin-inline: 30%;
+    display: none;
+}

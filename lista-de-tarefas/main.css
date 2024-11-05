@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    background-color: #201f1f;
+    justify-content: center;
+    margin: 0;
+    align-items: center;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    font-size: larger;
+    border-bottom: 2px solid #201f1f;
+    color: rgb(15, 219, 192);
+}
+
+.containers{
+    max-width: 940px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+form{
+    display: flex;
+    width: auto;
+    justify-content: center;
+    margin-bottom: 56px;
+    margin: 20px;
+}
+
+form input{
+    font-size: 24px;
+    border: none;
+    border-bottom: 2px solid rgb(30, 62, 151);
+    padding: 7px;
+    margin-right: 5%;
+}
+
+form button{
+    background-color: rgb(30, 62, 151);
+    padding: 14px;
+    color: antiquewhite;
+    border:none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+table{
+    width: 100%;
+}
+
+h2{
+    color:  rgb(51, 102, 241);
+    border-bottom: 2px solid black;
+    padding: 16px;
+    font-size: 24px;
+    font-weight: bold;
+    align-items: center;
+    display: flex;
+}
+
+
+ul li{
+    padding: 16px 0;
+    text-align: center;
+    font-size: 18px;
+    border-bottom: 1px solid rgba(30, 62, 151, 0.3);
+    color: #a5a5a5;
+    list-style: none;
+}
+
+ul li:hover {
+    text-decoration: line-through;
+    cursor: pointer;
+}
+
+.riscado{
+    text-decoration: line-through;
+}
+

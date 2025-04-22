@@ -15,7 +15,7 @@ alunos = geraAlunosENotas();
 separaLinhas();
 console.log("Os alunos são:\n", alunos);
 var alunosFiltrados = alunos.filter(aluno => {
-  return aluno.nota >= 7;
+  return aluno.nota >= 6;
 });
 separaLinhas();
 console.log("Os alunos aprovados são:\n", alunosFiltrados);

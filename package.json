@@ -1,0 +1,24 @@
+{
+  "name": "curso_ebac_frontend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaniloMachuca/curso_ebac_frontend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DaniloMachuca/curso_ebac_frontend/issues"
+  },
+  "homepage": "https://github.com/DaniloMachuca/curso_ebac_frontend#readme",
+  "description": "",
+  "devDependencies": {
+    "cypress": "^14.5.3"
+  }
+}

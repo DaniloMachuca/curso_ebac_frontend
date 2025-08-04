@@ -9,7 +9,7 @@ describe("Agenda", () => {
   });
 
   it("deve adicionar um contato", () => {
-    cy.get('[type="text"]').type("João");
+    cy.get('[type="text"]').type("JoãoTeste");
     cy.get('[type="email"]').type("j@j.com");
     cy.get('[type="tel"]').type("123456789");
     cy.get(".adicionar").click();
@@ -17,8 +17,13 @@ describe("Agenda", () => {
   });
 
   it("Deve editar um contato", () => {
-    cy.get(".edit").click();
-    cy.get('[type="text"]').clear().type("Maria");
+    cy.contains("li", "JoãoTeste")
+      .parent()
+      .parent()
+      .parent()
+      .find(".edit")
+      .click();
+    cy.get('[type="text"]').clear().type("MariaTeste");
     cy.get('[type="email"]').clear().type("m@m.com");
     cy.get('[type="tel"]').clear().type("987654321");
     cy.get(".alterar").click();
@@ -26,7 +31,12 @@ describe("Agenda", () => {
   });
 
   it("deve remover um contato", () => {
-    cy.get(".delete").click();
+    cy.contains("li", "MariaTeste")
+      .parent()
+      .parent()
+      .parent()
+      .find(".delete")
+      .click();
     cy.get("html").should("not.contain", "Maria");
   });
 });
